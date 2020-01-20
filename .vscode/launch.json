@@ -1,0 +1,18 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+            "executable": "./build/stm32f429_ltdc.elf",
+            "runToMain": true,
+            "postDebugTask": "Reset MCU",
+			"svdFile": "./Debug/STM32F429.svd",
+			"type": "cortex-debug",
+        	"request": "launch",
+        	"servertype": "stutil",
+        	"cwd": "${workspaceRoot}",
+			"name": "Debug (ST-Util)",
+        	"device": "STM32F429ZI",
+			"v1": false,
+		}
+	]
+}

@@ -1,0 +1,5 @@
+{
+	"cortex-debug.armToolchainPath": "${env:VSARM_GCC}/bin/",
+	"cortex-debug.stutilPath": "${env:VSARM_STLINK}/st-util.exe",
+    "cortex-debug.enableTelemetry": false,
+}
